@@ -24,7 +24,7 @@ public class EysyTitleVerificationStepDefinitions_Mine {
     public void userShouldSeeTitleEtsyShopForHandmadeVintageCustomAndUniqueGiftsForEveryone() {
 
         String actualTitle = Driver.getDriver().getTitle();
-        String expectedTitle = "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone";
+        String expectedTitle = "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone_";
         Assert.assertEquals("Actual title does not match expected title", actualTitle, expectedTitle);
     }
 
