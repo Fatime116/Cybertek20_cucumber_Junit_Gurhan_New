@@ -11,7 +11,7 @@ Feature:Title verification
     When User searches Wooden spoon in search box
     Then User should see Wooden spoon as title
 
-    @woodenspoonEtsy
+    @woodenspoonEtsy @smoke
   Scenario: Etsy Search Functionality Title Verification (with parameterization)
     When User searches "Wooden spoon" in search box
     Then User should see "Wooden spoon" as title
