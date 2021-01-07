@@ -21,6 +21,8 @@ public class GoogleStepDefinitions {
         //onpurpose failing
        // Assert.fail("onpurpose failing...!"); //if first one fails, skip executing second one
         Driver.getDriver().get("https://www.google.com");
+        //added
+        //
     }
 
     @Then("User should see title is Google")
