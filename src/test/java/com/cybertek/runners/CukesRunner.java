@@ -8,12 +8,13 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "rerun:target/rerun.txt",
-                "json:target/cucumber.json"//for cucumber report
+                "json:target/cucumber.json",//for cucumber report
+                "timeline:target/timeline-report"
         },
         features = "src/test/resources/features",
         glue = "com/cybertek/step_definitions",
         dryRun = false,
-        tags = "@failed_Test_check",
+        tags = "@smoke",
         publish = true
 
 

@@ -8,12 +8,12 @@ Feature: Search
   Scenario: Google default title verification
     Then User should see title is Google
 
-
+  @smoke @googleTitle
   Scenario: Google title verification after search
     When User searches apple
     Then User should see apple in the title
 
-
+ @smoke @googleTitle
   Scenario: Google title verification after search
     When User searches "apple"
     Then User should see "apple" in the title
