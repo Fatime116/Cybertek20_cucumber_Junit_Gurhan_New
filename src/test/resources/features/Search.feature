@@ -13,7 +13,7 @@ Feature: Search
     When User searches apple
     Then User should see apple in the title
 
- @smoke @googleTitle
+ @smoke @googleTitle @parameter
   Scenario: Google title verification after search
     When User searches "apple"
     Then User should see "apple" in the title
